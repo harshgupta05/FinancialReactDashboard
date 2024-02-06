@@ -11,7 +11,7 @@ Institution Information: Information about different financial institutions and 
 ## Installation
 To run the Financial Dashboard locally, follow these steps:
 1. Clone this repository to your local machine.
-`git clone https://github.com/harshgupta05/Reactdashboardapp.git`
+`git clone https://github.com/harshgupta05/FinancialReactDashboard.git`
 
 2. Navigate to the project directory.
 cd financial-dashboard
