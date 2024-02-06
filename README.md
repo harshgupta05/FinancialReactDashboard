@@ -13,16 +13,16 @@ To run the Financial Dashboard locally, follow these steps:
 1. Clone this repository to your local machine.
 `git clone https://github.com/harshgupta05/FinancialReactDashboard.git`
 
-2. Navigate to the project directory.
+3. Navigate to the project directory.
 cd financial-dashboard
 
-3. Install dependencies using npm.
+4. Install dependencies using npm.
 `npm install`
 
-4. Start the development server.
+5. Start the development server.
 `npm start`
 
-5. Open http://localhost:3000 in your web browser to view the application.
+6. Open http://localhost:3000 in your web browser to view the application.
 
 ### Technologies Used
 - React.js
