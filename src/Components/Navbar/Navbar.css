@@ -1,0 +1,107 @@
+.navbar{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    background: transparent;
+    font-size: 17px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-right .profile{
+    width: 30px;
+    border-radius: 50%;
+}
+
+.nav-right .arrow{
+    width: 15px;
+    border-radius: 50%;
+}
+
+.rotate{
+    transform: rotate(180deg);
+}
+
+
+.support-li{
+    cursor: pointer;
+
+}
+
+.profile-li{
+    cursor: pointer;
+    border: 1px solid #3B39D9;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 8px;
+}
+
+.profile-li img{
+    overflow: hidden;
+    
+}
+
+.support-div{
+    position: absolute;
+    top: 65px;
+    font-size: 13px;
+    color: #3B39D9;
+    font-weight: 400;
+    right: 150px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.support-1, .support-2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.support-contact, .support-email{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hidden{
+    display: none;
+}
+
+.profile-div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    top: 75px;
+    right: 45px;
+    background-color: white;
+    padding: 20px;
+    opacity: 0.7;
+}
+
+.my-profile, .my-fds, .my-transactions, .logout{
+    display: flex;
+    gap: 25px;
+}

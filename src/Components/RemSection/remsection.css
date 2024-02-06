@@ -1,0 +1,380 @@
+.container {
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background: #f2f2f2;
+}
+
+.cont-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 65%;
+}
+
+.cont-left-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  justify-content: left;
+}
+
+.card-item {
+  background-color: white;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.utkarsh {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #f3ebf9;
+  padding: 16px;
+  margin: 5px;
+}
+
+.card-heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.card-heading h3 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-heading img {
+  background: transparent;
+  mix-blend-mode: darken;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+}
+
+.utkarsh .features span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #efddff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.interest-rate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.interest-rate .interest {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.interest-rate .interest span:first-child {
+  font-size: 14px;
+  color: grey;
+}
+
+.interest-rate .interest .rate {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.utkarsh .interest-rate button {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #520b8d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bajaj {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #e4eefa;
+  padding: 16px;
+  margin: 5px;
+}
+
+.bajaj .interest-rate button {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #0072bb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bajaj .features span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgba(0, 114, 187, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.shriram {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #e7e7e7;
+  padding: 16px;
+  margin: 5px;
+}
+
+.shriram .interest-rate button {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shriram .features span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  background: rgba(26, 27, 30, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.mahindra {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #fae2e2;
+  padding: 16px;
+  margin: 5px;
+}
+
+.mahindra .interest-rate button {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mahindra .features span {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: rgba(255, 0, 0, 0.1);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.get-ans {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 40px 0;
+}
+
+.get-ans-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.get-ans-heading h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.get-ans-heading p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.back img,
+.forth img {
+  width: 30px;
+}
+
+.back img {
+  transform: rotate(90deg);
+  opacity: 0.4;
+}
+
+.forth img {
+  margin-left: 15px;
+  transform: rotate(-90deg);
+}
+
+.get-ans-cards {
+  display: flex;
+  gap: 40px;
+}
+
+.get-ans-cards-item {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-item-body {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.card-item-body h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-item-body p {
+  font-size: 14px;
+}
+
+.card-item-body span {
+  font-size: 14px;
+}
+
+.cont-right{
+    display: flex;
+    flex: 1;
+    max-width: 35%;
+}
+
+.cont-right-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.right-card-item {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+}
+
+.right-card-heading h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.right-card-body {
+  display: flex;
+  gap: 30px;
+}
+
+.right-card-body-left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+  align-items: left;
+}
+
+.right-card-body-left .head {
+  font-size: 12px;
+  color: grey;
+}
+
+.right-card-body-left .date {
+  font-size: 40px;
+  font-weight: 700;
+  align-self: center;
+}
+
+.right-card-body-left .month {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 8px;
+  background-color: #ff0000;
+  color: white;
+}
+
+.right-card-body-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-body-right-heading h4 {
+  font-size: 14px;
+}
+
+.card-body-right-plan {
+  display: flex;
+  gap: 20px;
+}
+
+.card-body-right-plan .deposite,
+.tennure,
+.int-rate {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.card-body-right-plan .text {
+  font-size: 14px;
+  color: grey;
+}
+
+.card-body-right-plan .amt,
+.yrs,
+.irate {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.right-card-body-btn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.right-card-body-btn button {
+  font-size: 16px;
+  padding: 11px 30px;
+  border-radius: 15px;
+}
+
+.right-card-body-btn .complete {
+  border: none;
+  background-color: #3b39d9;
+  color: white;
+}
+
+.right-card-body-btn .reschedule {
+  border: 2px solid #3b39d9;
+  color: #3b39d9;
+  font-weight: 700;
+}
